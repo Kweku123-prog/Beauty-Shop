@@ -65,3 +65,24 @@ flutter test
 
 
 
+Assumptions
+
+Users can browse Professionals without authentication (login will be added later).
+
+Booking APIs are not yet integrated — booking flow is mocked locally.
+
+Professionals have basic profile details (name, category, price) and can be filtered.
+
+Decisions
+
+Used BLoC for predictable state management and testability.
+
+Chose repository + DTO/mappers structure to allow easy backend integration later.
+
+UI kept minimal but production-style to focus on feature correctness.
+
+Shortcuts (due to time)
+
+Hardcoded/mock data used in place of API calls.
+
+Error handling is simplified (only essential user-facing errors shown).
