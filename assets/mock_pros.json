@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Ama the Hair Stylist",
+    "category": "Hair",
+    "minPrice": 50,
+    "travelMode": "Home Service",
+    "services": [
+      { "id": 1, "name": "Braids", "duration": 60, "price": 100 },
+      { "id": 2, "name": "Haircut", "duration": 30, "price": 50 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kwame the Barber",
+    "category": "Barber",
+    "minPrice": 30,
+    "travelMode": "In-Shop",
+    "services": [
+      { "id": 3, "name": "Fade Cut", "duration": 25, "price": 30 },
+      { "id": 4, "name": "Beard Trim", "duration": 15, "price": 20 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Esi the Makeup Artist",
+    "category": "Makeup",
+    "minPrice": 80,
+    "travelMode": "Home Service",
+    "services": [
+      { "id": 5, "name": "Bridal Makeup", "duration": 120, "price": 200 },
+      { "id": 6, "name": "Casual Glam", "duration": 45, "price": 100 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Kojo the Masseuse",
+    "category": "Spa & Wellness",
+    "minPrice": 100,
+    "travelMode": "Home Service",
+    "services": [
+      { "id": 7, "name": "Swedish Massage", "duration": 60, "price": 150 },
+      { "id": 8, "name": "Deep Tissue Massage", "duration": 75, "price": 180 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Akua the Nail Tech",
+    "category": "Nails",
+    "minPrice": 40,
+    "travelMode": "In-Shop",
+    "services": [
+      { "id": 9, "name": "Manicure", "duration": 30, "price": 40 },
+      { "id": 10, "name": "Pedicure", "duration": 45, "price": 60 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Yaw the Personal Trainer",
+    "category": "Fitness",
+    "minPrice": 120,
+    "travelMode": "Home Service",
+    "services": [
+      { "id": 11, "name": "One-on-One Training", "duration": 60, "price": 120 },
+      { "id": 12, "name": "Group Training", "duration": 90, "price": 200 }
+    ]
+  }
+]
